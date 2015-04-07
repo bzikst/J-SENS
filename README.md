@@ -58,7 +58,7 @@ get-info:
 ```
 get-values: 
 {
-	status: {code: “success”, message: “OK”},
+	status: {code: "success", message: "OK"},
 	data: {sensors: [addr1, addr2, …], values: [row1, row2, row3 …]}
 }
 ```
@@ -83,7 +83,7 @@ get-values:
 
 ```
 {
-	status: {code: “success”, message: “OK”},
+	status: {code: "success", message: "OK"},
 	data : {sensors: [addr1, addr2], values: [[]]}
 },
 ```
@@ -92,9 +92,9 @@ get-values:
 
 ```
 {
-	status: {code: “success”, message: “OK”},
+	status: {code: "success", message: "OK"},
 	data : {sensors: [addr1, addr2], values: [[1,61],[80,3]]}
 }
 ```
 
-Запросы и ответы строго используют спецификацию JSON. То есть должно быть: `{“cmd”: “get-sensors”}`. Все элементарные значения, в том числе числа в ответе на запрос `get-values` — передаются как строковый тип и заключаются в кавычки.
+Запросы и ответы строго используют спецификацию JSON. То есть должно быть: `{"cmd": "get-sensors"}`. Все элементарные значения, в том числе числа в ответе на запрос `get-values` — передаются как строковый тип и заключаются в кавычки.
