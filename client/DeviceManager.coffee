@@ -1,4 +1,6 @@
 # Device manager example module for J-SENS protocol
+# Originally written by Denis Shirokov
+# Contributors: Ivan Orlov, Alexey Mikhaylishin, Konstantin Moskalenko
 # See https://github.com/bzikst/J-SENS for details
 #
 

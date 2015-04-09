@@ -1,5 +1,7 @@
 ////////////////////////////////////////////
 // Clients example module for J-SENS protocol
+// Originally written by Alexander Gakhov
+// Contributors: Alexey Mikhaylishin, Konstantin Moskalenko
 // See https://github.com/bzikst/J-SENS for details
 
 #ifndef _CLIENTS_HPP_
