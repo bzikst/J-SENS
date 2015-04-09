@@ -118,3 +118,25 @@ get-values:
 ```
 
 Запросы и ответы строго используют спецификацию JSON. То есть должно быть: `{"cmd": "get-sensors"}`. Все элементарные значения, в том числе числа в ответе на запрос `get-values` — передаются как строковый тип и заключаются в кавычки.
+
+### Примеры применения 
+
+Протокол J-SENS используется в программно-аппаратном комплексе «ОС3. Реффорт», для обеспечения получения данных физических измерений (температуры, давления и т.п.) с датчиков для отображения и последующего анализа на компьютере, выступающим в роли ведущего устройства, в пределах одной локальной сети или при прямом подключение по стандартному кабелю UTP категории 5е.
+
+### Благодарности
+
+Разработчики протокола J-SENS благодарят за поддержку [Фонд содействия МП НТС](http://www.fasie.ru/), а также Татьяну Барладян и Ольгу Надёжину.
+
+### Источники
+
+1. Modbus Organization. MODBUS APPLICATION PROTOCOL SPECIFICATION V1.1b3 [Электронный ресурс]:  April 26, 2012. Режим доступа: http://www.modbus.org/docs/Modbus_Application_Protocol_V1_1b3.pdf
+
+2. R. Fielding, UC Irvine, J. Gettys etc. Hypertext Transfer Protocol --HTTP/1.1 [Электронный ресурс]: June 1999. Режим доступа: https://tools.ietf.org/html/rfc2616
+
+3. T. Bray, Ed. Google, Inc. The JavaScript Object Notation (JSON) Data Interchange Format [Электронный ресурс]: March 2014. Режим доступа: https://tools.ietf.org/html/rfc7159
+
+4. Specifications & Standards: [Электронный ресурс] // PI Organization. Режим доступа: http://www.profibus.com/download/specifications-standards/
+
+5. CANopen protocols: [Электронный ресурс] // CAN in Automation (CiA) Режим доступа: http://www.can-cia.org/index.php?id=systemdesign-canopen-protocol
+
+6. TIA-485-A ELECTRICAL CHARACTERISTICS OF GENERATORS AND RECEIVERS FOR USE IN BALANCED DIGITAL MULTIPOINT SYSTEMS: [Электронный ресурс] // Telecommunications Industry Association (TIA). 12/07/12. Режим доступа: https://global.ihs.com/search_res.cfm?input_doc_number=TIA-485-A&input_doc_title=&rid=TIA
