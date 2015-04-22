@@ -1,5 +1,6 @@
 # J-SENS
 Open protocol for receiving measured sensors data.
+Russian version of this file [is here.](https://github.com/bzikst/J-SENS/blob/master/README.rus.md)
 
 ### Introduction
 
