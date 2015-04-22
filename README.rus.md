@@ -21,7 +21,7 @@ J-SENS изначально разрабатывался с использова
 
 {} — содержит множество именованных значений, разделенных запятой.
 
-![Network scheme](https://github.com/bzikst/J-SENS/blob/master/network_scheme.png)
+![Network scheme](https://github.com/bzikst/J-SENS/blob/master/network_scheme_rus.png)
 
 ### Общее описание
 
@@ -108,7 +108,7 @@ get-values:
 },
 ```
 
-а также ответы со значениями полученными раннее, но не отправленными node серверу:
+а также ответы со значениями полученными раннее, но не отправленными серверу:
 
 ```
 {
