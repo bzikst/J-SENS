@@ -27,7 +27,7 @@ Client — master device, which requests data from slave devices, acts as client
 
 {} — a set of named comma-separated elements
 
-![Network scheme](https://github.com/bzikst/J-SENS/blob/master/network_scheme.png)
+![Network scheme](https://github.com/bzikst/J-SENS/blob/master/network_scheme_eng.png)
 
 ### Description
 
